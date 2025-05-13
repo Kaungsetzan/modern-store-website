@@ -1,0 +1,190 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: FBF8EF;
+  color: #1a1a2e;
+}
+
+.navbar {
+  background-color: #ffbb00;
+}
+
+.navbar-brand {
+  margin-left: 70px;
+}
+
+#brandName {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3a032a;
+  font-style: italic;
+}
+
+.header2,
+.cart-link,
+.more,
+#our-products {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3a032a;
+}
+.navbar-nav {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3a032a;
+  margin-right: 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+}
+
+/* shopping cart  */
+.container-advertisement {
+  display: flex;
+  justify-content: center;
+}
+#get {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 2.8rem;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  color: #3a032a;
+}
+
+#text {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.2rem;
+}
+
+.more {
+  margin-top: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3a032a;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 5px 15px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+}
+
+#shopping-cart {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(0, 54%, 97%);
+}
+
+.btn-add {
+  background-color: #3a032a;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  width: 120px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.btn-add:hover {
+  transform: scale(1.05);
+}
+
+.card-title,
+.orders,
+.checkout {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+  height: 30vh;
+}
+
+.cart-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffbb00;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  z-index: 1000;
+}
+
+.cart-link {
+  padding: 20px;
+  text-decoration: none;
+  color: #3a032a;
+}
+
+.color {
+  color: #3a032a;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.orders h2 {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3a032a;
+  margin-bottom: 50px;
+}
+
+.checkout {
+  display: block;
+  margin: 50px auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #3a032a;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.bg-color {
+  background-color: #3a032a;
+}

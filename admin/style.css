@@ -1,0 +1,66 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fbf8ef;
+  color: #1a1a2e;
+}
+
+.navbar {
+  background-color: #ffbb00;
+}
+
+.navbar-brand {
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 2rem;
+  color: #3a032a;
+  font-style: italic;
+  margin-left: 70px;
+}
+
+.sidebar {
+  background-color: #3a032a;
+  color: white;
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  width: 220px;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  background-color: #5e1148;
+}
+
+.header {
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 2rem;
+  color: #3a032a;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(0, 54%, 97%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+footer {
+  background-color: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
